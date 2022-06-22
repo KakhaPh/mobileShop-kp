@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url('https://fonts.googleapis.com/css?family=Abel|Bubbler+One|Inconsolata');
+
+
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.navbar-brand{
+  font-family: Open Sans;
+  font-size: 200%;
+  font-style: italic;
+}
+
+body{
+  font-family: Abel;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+#topnav{
+  height:70px;
+}
+
+#topnav > * {
+  position: relative;
+  top:7px;
+}
+
+#foot {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#search{
+  position: relative;
+  left:360px;
+}
+#search_btn{
+  position: relative;
+  left:360px;
+}
+
+#shoppingcart{
+  position: relative;
+  /*right: 240px;*/
+}
+
+#prodbtn {
+  margin-left: 10px;
+}
+
+#paginate, .pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.orangered {
+  background-color: orangered !important;
+}
+
+.text-orangered {
+  color: orangered !important;
+}
+
+.heading-orng {
+  background-color: rgba(255, 68, 0, 0.69) !important;
+}
+
+.white {
+  color: #fff !important;
+}

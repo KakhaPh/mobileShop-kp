@@ -1,0 +1,159 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url('https://fonts.googleapis.com/css?family=Abel|Bubbler+One|Inconsolata');
+
+
+.container {
+  width: 100%;
+  height: fit-content;
+}
+
+#foot {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.one-time{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.navbar-brand{
+  font-family: Open Sans;
+  font-size: 200%;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.prod_img {
+  width: 100%;;
+}
+
+#paginate {
+  display:flex;
+  justify-content: center
+}
+
+
+body{
+  font-family: Abel;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+#topnav{
+  height:70px;
+  background-color: lightgray;
+}
+
+#topnav > * {
+  position: relative;
+  top:7px;
+}
+
+#search{
+  position: relative;
+  left:360px;
+}
+
+#search_btn{
+  position: relative;
+  left:360px;
+}
+
+#shoppingcart{
+  position: relative;
+  right: 50px;
+}
+
+.ffff {
+  color: #fff !important;
+}
+
+.search-center{
+	position: relative;
+	left:550px;
+}
+
+#login{
+	position: relative;
+	left:600px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.navbar-brand{
+  font-family: Open Sans;
+  font-size: 200%;
+  font-style: italic;
+}
+
+body{
+  font-family: Abel;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+#topnav{
+  height:70px;
+}
+
+#topnav > * {
+  position: relative;
+  top:7px;
+}
+
+#foot {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#search{
+  position: relative;
+  left:360px;
+}
+#search_btn{
+  position: relative;
+  left:360px;
+}
+
+#shoppingcart{
+  position: relative;
+  /*right: 240px;*/
+}
+
+#prodbtn {
+  margin-left: 10px;
+}
+
+#paginate, .pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.orangered {
+  background-color: orangered !important;
+}
+
+.text-orangered {
+  color: orangered !important;
+}
+
+.heading-orng {
+  background-color: rgba(255, 68, 0, 0.69) !important;
+}
+
+.white {
+  color: #fff !important;
+}
